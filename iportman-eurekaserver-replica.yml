@@ -1,0 +1,8 @@
+server:
+  port: 9002
+
+eureka:
+  client:
+    registerWithEureka: true
+    featchRegistry: true
+
