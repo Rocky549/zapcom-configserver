@@ -10,3 +10,7 @@ spring:
       ddl-auto: update
   config:
     import: configserver:http://localhost:9001
+eureka:
+  client:
+    registerWithEureka: true
+    fetch-registry: false
