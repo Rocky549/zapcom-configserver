@@ -9,6 +9,8 @@ spring:
     hibernate:
       ddl-auto: update
 eureka:
+  instance:
+    hostname: localhost
   client:
     registerWithEureka: true
     fetch-registry: false
